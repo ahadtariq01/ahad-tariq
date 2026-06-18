@@ -1,21 +1,18 @@
 import React from "react";
 import Heading from "../Components/Heading";
 import SkillCard from "../Components/SkillCard";
-import { FaFigma, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { RiNextjsLine } from "react-icons/ri";
-import { IoLogoJavascript } from "react-icons/io";
+import { FaGithub, FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
+import { SiWordpress, SiElementor, SiGutenberg, SiGooglemarketingplatform } from "react-icons/si";
 
 const skills = [
-  { logo: <FaReact />, title: "React JS", disc: "UI Library", color: "#61DAFB" },
-  { logo: <FaFigma />, title: "Figma", disc: "Design Tool", color: "#F24E1E" },
-  { logo: <RiTailwindCssFill />, title: "TailWind", disc: "Utility-First CSS", color: "#06B6D4" },
-  { logo: <RiNextjsLine />, title: "Next JS", disc: "React Framework", color: "#FFFFFF" },
-  { logo: <IoLogoJavascript />, title: "JavaScript", disc: "Client-side scripting", color: "#F7DF1E" },
+  { logo: <SiWordpress />, title: "WordPress", disc: "CMS Platform", color: "#21759B" },
+  { logo: <SiElementor />, title: "Elementor", disc: "Page Builder", color: "#D30C5C" },
+  { logo: <SiGutenberg />, title: "Gutenberg", disc: "Block Editor", color: "#007CBA" },
+  { logo: <SiGooglemarketingplatform />, title: "Lead Generation", disc: "Sales & Growth", color: "#4285F4" },
+  { logo: <FaHtml5 />, title: "HTML5", disc: "Web Structuring", color: "#E34F26" },
+  { logo: <IoLogoCss3 />, title: "CSS3", disc: "Responsive Styling", color: "#1572B6" },
   { logo: <FaGithub />, title: "Github", disc: "Code collaboration", color: "#E6EDF3" },
-  { logo: <FaBootstrap />, title: "BootStrap", disc: "CSS Framework", color: "#7952B3" },
-  { logo: <IoLogoCss3 />, title: "CSS", disc: "Responsive styling", color: "#264DE4" },
 ];
 
 const Skills = React.forwardRef(function Skills(props, ref) {
