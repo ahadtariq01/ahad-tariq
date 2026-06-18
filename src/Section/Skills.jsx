@@ -13,6 +13,7 @@ const skills = [
   { logo: <FaHtml5 />, title: "HTML5", disc: "Web Structuring", color: "#E34F26" },
   { logo: <IoLogoCss3 />, title: "CSS3", disc: "Responsive Styling", color: "#1572B6" },
   { logo: <FaGithub />, title: "Github", disc: "Code collaboration", color: "#E6EDF3" },
+  { logo: <FaFigma />, title: "Figma", disc: "Design Tool", color: "#F24E1E" },
 ];
 
 const Skills = React.forwardRef(function Skills(props, ref) {
