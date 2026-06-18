@@ -54,7 +54,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           <div className="relative z-10">
             <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">Design Stack</h3>
             <h1 className="text-white font-bold text-2xl leading-tight">
-              Wordpress developer, Data researcher
+              Wordpress developer, Data Researcher
             </h1>
           </div>
 
