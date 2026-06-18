@@ -23,7 +23,7 @@ function Sidebar() {
         <div className="relative group w-full overflow-hidden rounded-2xl">
           <img
             src="Media.jpg"
-            alt="Abdullah"
+            alt="ahad.jpg"
             className="w-full rounded-2xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.03]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent rounded-2xl" />
