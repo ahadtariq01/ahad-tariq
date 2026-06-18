@@ -15,19 +15,19 @@ const Intro = React.forwardRef(function Intro(props, ref) {
       className="scroll-mt-28 flex flex-col w-full gap-8 md:gap-10 items-center md:items-start pt-16 md:pt-0"
     >
       <div>
-        <Heading FWord="SOFTWARE" LWord="ENGINEER" />
+        <Heading FWord="WORDPRESS" LWord="DEVELOPER  " />
       </div>
 
       <div className="md:pr-20 lg:pr-45 text-center md:text-left">
-        <Paragraph para="Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products." />
+        <Paragraph para="Passionate WordPress Developer with expertise in building responsive, high-converting websites using Elementor and Gutenberg. Specialized in turning custom layouts into clean, modern, and beautifully crafted digital experiences." />
       </div>
 
       {/* Stats */}
       <div className="flex flex-wrap justify-center md:justify-start w-full gap-8 md:gap-20">
         {[
           { count: "1+", label: "YEARS OF EXPERIENCE" },
-          { count: "3+", label: "PROJECTS COMPLETED" },
-          { count: "2+", label: "CLIENTS WORLDWIDE" },
+          { count: "30+", label: "PROJECTS COMPLETED" },
+          { count: "20+", label: "CLIENTS WORLDWIDE" },
         ].map((stat, i) => (
           <div key={i} className="flex flex-col items-center md:items-start group">
             <h1 className={`${Hstyle} group-hover:text-orange-500 transition-colors duration-300`}>
@@ -54,7 +54,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           <div className="relative z-10">
             <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">Design Stack</h3>
             <h1 className="text-white font-bold text-2xl leading-tight">
-              Figma, PhotoShop <br /> & Canva Specialist
+              Wordpress developer, Data researcher
             </h1>
           </div>
 
@@ -76,7 +76,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           <div className="relative z-10">
             <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">Development Stack</h3>
             <h1 className="text-white font-bold text-2xl leading-tight">
-              React, Next, Tailwind, <br /> Bootstrap & JQuery
+             HTML, CSS
             </h1>
           </div>
 
