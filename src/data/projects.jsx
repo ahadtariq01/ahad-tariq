@@ -29,14 +29,12 @@ export const projects = [
   },
   {
     id: 2,
-    link: "https://quiz-sooty-sigma-47.vercel.app/homepage",
+    link: "https://aliceblue-crane-584187.hostingersite.com/",
     pic: "project2.png",
-    heading: "Quiz App",
-    discr: "A Simple Quiz Application",
+    heading: "Horizon Surgical Center",
+    discr: "Medical Center",
     tags: [
       { name: "Firebase", icon: <SiFirebase color="#FFCA28" /> },
-      { name: "React", icon: <FaReact color="#61DAFB" /> },
-      { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
     ],
   },
   {
