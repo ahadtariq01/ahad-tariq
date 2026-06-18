@@ -58,7 +58,7 @@ export const projects = [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
     ],
   },
-  {
+ {
     id: 5,
     link: "https://tradexdesk.com/",
     pic: "tradex.png",
@@ -67,8 +67,9 @@ export const projects = [
     tags: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
     ],
+  }, // <--- Yeh comma lagana boht zaroori hai naye project se pehle!
   {
-     id: 6,
+    id: 6,
     link: "https://whitesmoke-mole-377965.hostingersite.com/",
     pic: "tidwell.png",
     heading: "Tidwell",
@@ -76,5 +77,5 @@ export const projects = [
     tags: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
     ],
-  },
-];
+  } // <--- Aakhri project ke baad comma nahi aayega
+]; // <--- Yeh square bracket aur semicolon poori list ko close karta hai
