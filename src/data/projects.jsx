@@ -70,7 +70,7 @@ export const projects = [
   {
      id: 6,
     link: "https://whitesmoke-mole-377965.hostingersite.com/",
-    pic: "tradex.png",
+    pic: "tidwell.png",
     heading: "Tidwell",
     discr: "Bookkeeping Services",
     tags: [
