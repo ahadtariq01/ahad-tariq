@@ -67,5 +67,14 @@ export const projects = [
     tags: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
     ],
-  }
+  {
+     id: 6,
+    link: "https://whitesmoke-mole-377965.hostingersite.com/",
+    pic: "tradex.png",
+    heading: "Tidwell",
+    discr: "Bookkeeping Services",
+    tags: [
+      { name: "React", icon: <FaReact color="#61DAFB" /> },
+    ],
+  },
 ];
