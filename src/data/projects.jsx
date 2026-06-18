@@ -30,7 +30,7 @@ export const projects = [
   {
     id: 2,
     link: "https://aliceblue-crane-584187.hostingersite.com/",
-    pic: "project2.png",
+    pic: "horizon.png",
     heading: "Horizon Surgical Center",
     discr: "Medical Center",
     tags: [
@@ -39,38 +39,33 @@ export const projects = [
   },
   {
     id: 3,
-    link: "https://university-portal-rouge.vercel.app/admin",
-    pic: "image.png",
-    heading: "University Portal",
-    discr: "VU University Portal",
+    link: "https://www.armourhomes.au/",
+    pic: "armour.png",
+    heading: "Armour Homes",
+    discr: "Custom Home Builders",
     tags: [
       { name: "TypeScript", icon: <SiTypescript color="#3178C6" /> },
-      { name: "React", icon: <FaReact color="#61DAFB" /> },
-      { name: "Firebase", icon: <SiFirebase color="#FFCA28" /> },
     ],
   },
   // Placeholders for future projects
   {
     id: 4,
-    link: "https://ramadan-time-two.vercel.app/",
-    pic: "ramadan.png",
-    heading: "Ramadan Time",
-    discr: "GPS-powered Ramadan companion app.",
+    link: "https://saltec.com.au/",
+    pic: "saltec.png",
+    heading: "Saltec Group",
+    discr: "Cutting-Edge AV Solutions",
     tags: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
-      { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
     ],
   },
   {
     id: 5,
-    link: "https://e-commerce-product-page-beta-sand.vercel.app/",
-    pic: "project1.png",
-    heading: "Simple E-Commerce Page",
-    discr: "Product Listing + Add to Cart",
+    link: "https://tradexdesk.com/",
+    pic: "tradex.png",
+    heading: "Tradex Desk",
+    discr: "Performance-Driven Trading",
     tags: [
       { name: "React", icon: <FaReact color="#61DAFB" /> },
-      { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
-      { name: "JS", icon: <SiJavascript color="#F7DF1E" /> },
     ],
   }
 ];
