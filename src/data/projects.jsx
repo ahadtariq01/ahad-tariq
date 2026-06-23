@@ -71,7 +71,7 @@ export const projects = [
   {
     id: 6,
     link: "https://value-fabric.com/",
-    pic: "tradex.png",
+    pic: "value.png",
     heading: "ValueFabric",
     discr: "Operating Intelligence",
     tags: [
